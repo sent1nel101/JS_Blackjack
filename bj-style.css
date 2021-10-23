@@ -1,0 +1,82 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 1rem;
+    font-variant: small-caps;
+}
+
+body{
+    background:rgb(2, 78, 2);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+}
+.content{
+    width: 350px;
+    margin: 0 auto;
+    background:rgb(1, 73, 1);
+    padding:1rem;
+    border-radius:15px;
+}
+#message-el{
+    color:white;
+}
+
+.title{color:rgb(196, 151, 28);}
+
+#cards{
+    color:white;
+}
+
+#sum{
+    color:white;
+}
+
+button{
+    background:goldenrod;
+    padding:2px 5px 2px 5px;
+    line-height: 1.2;
+    font-weight: 900;   
+    margin: .5rem;
+    width: 150px;
+    font-variant: small-caps;
+}
+button:hover{
+    position: relative;
+    top:1px;
+}
+
+span {
+    text-decoration: underline;
+}
+
+#textBox{
+    font-size: 48px;
+    color: green;
+    padding:15px;
+}
+
+
+.addBtn{
+    background:goldenrod;
+    opacity:.8;
+    color: #016f32;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.drawCardBtn{
+    background:goldenrod;
+    opacity:.8;
+    color: #016f32;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+.quitBtn{
+    background:#016f32;
+    opacity:.8;
+    color:goldenrod;
+    border: 1px solid white;
+    border-radius: 2px;
+    letter-spacing:.2em;
+}
